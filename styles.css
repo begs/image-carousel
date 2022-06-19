@@ -16,7 +16,8 @@
 .carousel .carousel-item img {
     width: 100%;
     max-width: 600px;
-    height: auto;
+    height: 300px;
+    object-fit: cover; 
 }
 
 .carousel .carousel-actions {
@@ -49,9 +50,9 @@
 
 @keyframes fadeVisibility {
     0% {
-        opacity: 0;
+        opacity: 70%;
     }
     100% {
-        opacity: 1;
+        opacity: 100%;
     }
 }
